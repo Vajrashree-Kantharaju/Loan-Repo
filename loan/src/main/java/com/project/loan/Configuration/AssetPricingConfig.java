@@ -8,7 +8,7 @@ public class AssetPricingConfig {
 
     @Bean
     public String assetPricingServiceUrl() {
-        return "http://10.104.237.59:8080/api/assets";
+        return "http://<ip>:8080/api/assets";
     }
 }
 
